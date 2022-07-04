@@ -1,0 +1,36 @@
+{
+  "name": "weather2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo-google-fonts/roboto": "^0.2.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-modal": "^13.0.1",
+    "react-native-neat-date-picker": "^1.2.4",
+    "react-native-vector-icons": "^9.0.0",
+    "react-redux": "^8.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/runtime": "^7.18.6",
+    "@react-native-community/eslint-config": "^3.0.3",
+    "babel-jest": "^28.1.2",
+    "eslint": "^8.18.0",
+    "jest": "^28.1.2",
+    "metro-react-native-babel-preset": "^0.71.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
